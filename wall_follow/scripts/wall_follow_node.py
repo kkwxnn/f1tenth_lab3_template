@@ -24,8 +24,8 @@ class WallFollow(Node):
 
         # TODO: set PID gains
         self.kp = 1.0
-        self.kd = 0.0
-        self.ki = 0.0
+        self.kd = 0.01
+        self.ki = 0.05
 
         # TODO: store history
         self.integral = 0.0
